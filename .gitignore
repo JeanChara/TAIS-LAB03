@@ -1,0 +1,25 @@
+# Dependencias
+node_modules/
+
+# Build de Vite
+dist/
+
+# Salidas temporales de pruebas
+test-output.txt
+test-results.txt
+vitest-output.txt
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Variables de entorno
+.env
+.env.*

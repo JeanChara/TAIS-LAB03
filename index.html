@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="app-header">
+        <h1 class="app-header__title">Pronóstico del Clima</h1>
+      </header>
+
+      <main class="app-main">
+        <!-- Search zone: CitySearchForm will be mounted here -->
+        <section
+          id="search-zone"
+          class="app-section app-section--search"
+          aria-label="Buscar ciudad"
+        ></section>
+
+        <!-- Loading zone: LoadingIndicator will be mounted here -->
+        <section
+          id="loading-zone"
+          class="app-section app-section--loading"
+          aria-label="Estado de carga"
+        ></section>
+
+        <!-- Error zone: ErrorMessage will be mounted here -->
+        <section
+          id="error-zone"
+          class="app-section app-section--error"
+          aria-label="Mensajes de error"
+        ></section>
+
+        <!-- Weather zone: WeatherDisplay will be mounted here -->
+        <section
+          id="weather-zone"
+          class="app-section app-section--weather"
+          aria-label="Datos del clima"
+        ></section>
+      </main>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

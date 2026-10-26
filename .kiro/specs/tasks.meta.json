@@ -1,0 +1,295 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Configurar la estructura del proyecto y la cadena de herramientas": [
+      {
+        "executionId": "2304498f-e542-45af-887e-8f6e07d258d3",
+        "chatSessionId": "sess_89779f08-472b-4e9a-85a6-b0be987d2277",
+        "timestamp": 1792985368287
+      },
+      {
+        "executionId": "2304498f-e542-45af-887e-8f6e07d258d3",
+        "chatSessionId": "sess_89779f08-472b-4e9a-85a6-b0be987d2277",
+        "timestamp": 1792985560817
+      }
+    ],
+    "2.1 Crear el archivo `src/types/index.ts` con todas las interfaces y tipos del dominio": [
+      {
+        "executionId": "b9f425b2-634b-4d97-abc5-165b5101836f",
+        "chatSessionId": "sess_35b07842-242c-46cf-bcbc-af51e7ea6cbf",
+        "timestamp": 1792985786145
+      },
+      {
+        "executionId": "b9f425b2-634b-4d97-abc5-165b5101836f",
+        "chatSessionId": "sess_35b07842-242c-46cf-bcbc-af51e7ea6cbf",
+        "timestamp": 1792985856290
+      }
+    ],
+    "2. Definir tipos e interfaces centrales": [
+      {
+        "executionId": "b9f425b2-634b-4d97-abc5-165b5101836f",
+        "chatSessionId": "sess_35b07842-242c-46cf-bcbc-af51e7ea6cbf",
+        "timestamp": 1792985856401
+      }
+    ],
+    "3.1 Implementar `src/clients/GeocodingClient.ts`": [
+      {
+        "executionId": "e9b88115-60f4-4797-89ea-56c6ef445d46",
+        "chatSessionId": "sess_0df5c66f-c00b-4ccb-8a07-1ee865c01842",
+        "timestamp": 1792985891165
+      },
+      {
+        "executionId": "e9b88115-60f4-4797-89ea-56c6ef445d46",
+        "chatSessionId": "sess_0df5c66f-c00b-4ccb-8a07-1ee865c01842",
+        "timestamp": 1792985968007
+      }
+    ],
+    "3.3 Implementar `src/clients/ForecastClient.ts`": [
+      {
+        "executionId": "e9b88115-60f4-4797-89ea-56c6ef445d46",
+        "chatSessionId": "sess_0df5c66f-c00b-4ccb-8a07-1ee865c01842",
+        "timestamp": 1792985892957
+      },
+      {
+        "executionId": "e9b88115-60f4-4797-89ea-56c6ef445d46",
+        "chatSessionId": "sess_0df5c66f-c00b-4ccb-8a07-1ee865c01842",
+        "timestamp": 1792985968141
+      }
+    ],
+    "3. Implementar los clientes HTTP": [
+      {
+        "executionId": "e9b88115-60f4-4797-89ea-56c6ef445d46",
+        "chatSessionId": "sess_0df5c66f-c00b-4ccb-8a07-1ee865c01842",
+        "timestamp": 1792985968204
+      }
+    ],
+    "4. Implementar GeocodingService": [
+      {
+        "executionId": "f746ba30-483a-4917-a6b6-20532d1c1377",
+        "chatSessionId": "sess_962e73ea-fccb-4189-abff-80cfe5439696",
+        "timestamp": 1792986087065
+      },
+      {
+        "executionId": "f746ba30-483a-4917-a6b6-20532d1c1377",
+        "chatSessionId": "sess_962e73ea-fccb-4189-abff-80cfe5439696",
+        "timestamp": 1792986190365
+      }
+    ],
+    "4.1 Implementar `src/services/GeocodingService.ts`": [
+      {
+        "executionId": "f746ba30-483a-4917-a6b6-20532d1c1377",
+        "chatSessionId": "sess_962e73ea-fccb-4189-abff-80cfe5439696",
+        "timestamp": 1792986093558
+      },
+      {
+        "executionId": "f746ba30-483a-4917-a6b6-20532d1c1377",
+        "chatSessionId": "sess_962e73ea-fccb-4189-abff-80cfe5439696",
+        "timestamp": 1792986190299
+      }
+    ],
+    "5.1 Implementar `src/services/ForecastService.ts`": [
+      {
+        "executionId": "4d3150bb-40e0-44ea-97bc-bb0e0fa4965c",
+        "chatSessionId": "sess_072d8ce1-4f5f-4d96-aa20-a9b5ac2fc2ad",
+        "timestamp": 1792986216338
+      },
+      {
+        "executionId": "4d3150bb-40e0-44ea-97bc-bb0e0fa4965c",
+        "chatSessionId": "sess_072d8ce1-4f5f-4d96-aa20-a9b5ac2fc2ad",
+        "timestamp": 1792986321915
+      }
+    ],
+    "5. Implementar ForecastService": [
+      {
+        "executionId": "4d3150bb-40e0-44ea-97bc-bb0e0fa4965c",
+        "chatSessionId": "sess_072d8ce1-4f5f-4d96-aa20-a9b5ac2fc2ad",
+        "timestamp": 1792986321992
+      }
+    ],
+    "6. Punto de control — Verificar servicios y clientes": [
+      {
+        "executionId": "47cd0995-5283-4d18-8c1a-f957b4720c56",
+        "chatSessionId": "sess_238edad2-dbe1-43b6-a849-26b37080ee7f",
+        "timestamp": 1792986344553
+      },
+      {
+        "executionId": "47cd0995-5283-4d18-8c1a-f957b4720c56",
+        "chatSessionId": "sess_238edad2-dbe1-43b6-a849-26b37080ee7f",
+        "timestamp": 1792986454045
+      }
+    ],
+    "7.1 Implementar `src/utils/formatters.ts`": [
+      {
+        "executionId": "7b124148-6641-4c02-b276-60bd5a8974ef",
+        "chatSessionId": "sess_c16049cf-0524-41aa-a71c-c03450a2ca6b",
+        "timestamp": 1792986481838
+      },
+      {
+        "executionId": "d22d7566-31fb-466d-8fd8-470c66f2ef11",
+        "chatSessionId": "sess_00a3dd94-7417-4397-91a9-717b144c89f1",
+        "timestamp": 1792986722417
+      },
+      {
+        "executionId": "d22d7566-31fb-466d-8fd8-470c66f2ef11",
+        "chatSessionId": "sess_00a3dd94-7417-4397-91a9-717b144c89f1",
+        "timestamp": 1792986803428
+      }
+    ],
+    "7. Implementar utilidades de formateo": [
+      {
+        "executionId": "d22d7566-31fb-466d-8fd8-470c66f2ef11",
+        "chatSessionId": "sess_00a3dd94-7417-4397-91a9-717b144c89f1",
+        "timestamp": 1792986803524
+      }
+    ],
+    "8.1 Implementar `src/components/CitySearchForm.ts`": [
+      {
+        "executionId": "9a480969-9ebf-4dbd-b32f-33d160df5258",
+        "chatSessionId": "sess_cf18ce7d-47f5-486e-8887-acaf2186f1a7",
+        "timestamp": 1792986820060
+      },
+      {
+        "executionId": "f6de4119-cf88-4b86-a1e9-b28051368eb5",
+        "chatSessionId": "sess_e57b2053-bce2-4c03-9ab2-078163d7456c",
+        "timestamp": 1792987286106
+      },
+      {
+        "executionId": "f6de4119-cf88-4b86-a1e9-b28051368eb5",
+        "chatSessionId": "sess_e57b2053-bce2-4c03-9ab2-078163d7456c",
+        "timestamp": 1792987696262
+      }
+    ],
+    "8.5 Implementar `src/components/WeatherDisplay.ts`": [
+      {
+        "executionId": "9a480969-9ebf-4dbd-b32f-33d160df5258",
+        "chatSessionId": "sess_cf18ce7d-47f5-486e-8887-acaf2186f1a7",
+        "timestamp": 1792986821937
+      },
+      {
+        "executionId": "f6de4119-cf88-4b86-a1e9-b28051368eb5",
+        "chatSessionId": "sess_e57b2053-bce2-4c03-9ab2-078163d7456c",
+        "timestamp": 1792987288137
+      },
+      {
+        "executionId": "f6de4119-cf88-4b86-a1e9-b28051368eb5",
+        "chatSessionId": "sess_e57b2053-bce2-4c03-9ab2-078163d7456c",
+        "timestamp": 1792987698304
+      }
+    ],
+    "8.7 Implementar `src/components/LoadingIndicator.ts`": [
+      {
+        "executionId": "9a480969-9ebf-4dbd-b32f-33d160df5258",
+        "chatSessionId": "sess_cf18ce7d-47f5-486e-8887-acaf2186f1a7",
+        "timestamp": 1792986823820
+      },
+      {
+        "executionId": "f6de4119-cf88-4b86-a1e9-b28051368eb5",
+        "chatSessionId": "sess_e57b2053-bce2-4c03-9ab2-078163d7456c",
+        "timestamp": 1792987290182
+      },
+      {
+        "executionId": "f6de4119-cf88-4b86-a1e9-b28051368eb5",
+        "chatSessionId": "sess_e57b2053-bce2-4c03-9ab2-078163d7456c",
+        "timestamp": 1792987700376
+      }
+    ],
+    "8.8 Implementar `src/components/ErrorMessage.ts`": [
+      {
+        "executionId": "9a480969-9ebf-4dbd-b32f-33d160df5258",
+        "chatSessionId": "sess_cf18ce7d-47f5-486e-8887-acaf2186f1a7",
+        "timestamp": 1792986825698
+      },
+      {
+        "executionId": "f6de4119-cf88-4b86-a1e9-b28051368eb5",
+        "chatSessionId": "sess_e57b2053-bce2-4c03-9ab2-078163d7456c",
+        "timestamp": 1792987291974
+      },
+      {
+        "executionId": "f6de4119-cf88-4b86-a1e9-b28051368eb5",
+        "chatSessionId": "sess_e57b2053-bce2-4c03-9ab2-078163d7456c",
+        "timestamp": 1792987702165
+      }
+    ],
+    "8. Implementar componentes de UI": [
+      {
+        "executionId": "f6de4119-cf88-4b86-a1e9-b28051368eb5",
+        "chatSessionId": "sess_e57b2053-bce2-4c03-9ab2-078163d7456c",
+        "timestamp": 1792987702221
+      }
+    ],
+    "9.1 Implementar `src/WeatherController.ts`": [
+      {
+        "executionId": "df12d00e-88c2-4563-a669-9ba7ca913690",
+        "chatSessionId": "sess_50520cae-8a5e-4dd6-bde7-6fbc7c6b251c",
+        "timestamp": 1792987735394
+      },
+      {
+        "executionId": "df12d00e-88c2-4563-a669-9ba7ca913690",
+        "chatSessionId": "sess_50520cae-8a5e-4dd6-bde7-6fbc7c6b251c",
+        "timestamp": 1792987860899
+      }
+    ],
+    "9. Implementar WeatherController": [
+      {
+        "executionId": "df12d00e-88c2-4563-a669-9ba7ca913690",
+        "chatSessionId": "sess_50520cae-8a5e-4dd6-bde7-6fbc7c6b251c",
+        "timestamp": 1792987860984
+      }
+    ],
+    "10. Punto de control — Verificar controlador y componentes UI": [
+      {
+        "executionId": "21ab1e44-a355-4ed9-a423-7cf2d5f4913b",
+        "chatSessionId": "sess_b0bdddf9-0661-4ad4-854d-091537f5a811",
+        "timestamp": 1792987875014
+      },
+      {
+        "executionId": "21ab1e44-a355-4ed9-a423-7cf2d5f4913b",
+        "chatSessionId": "sess_b0bdddf9-0661-4ad4-854d-091537f5a811",
+        "timestamp": 1792987997839
+      }
+    ],
+    "11.1 Conectar todo en `src/main.ts`": [
+      {
+        "executionId": "7da9cbd5-6819-46bd-830b-818c1f3fb5d3",
+        "chatSessionId": "sess_3663d1af-d400-4ee6-a700-684cc3bb8f9c",
+        "timestamp": 1792988191022
+      },
+      {
+        "executionId": "7da9cbd5-6819-46bd-830b-818c1f3fb5d3",
+        "chatSessionId": "sess_3663d1af-d400-4ee6-a700-684cc3bb8f9c",
+        "timestamp": 1792988625384
+      }
+    ],
+    "11.2 Completar `index.html` con el marcado base y estilos CSS": [
+      {
+        "executionId": "7da9cbd5-6819-46bd-830b-818c1f3fb5d3",
+        "chatSessionId": "sess_3663d1af-d400-4ee6-a700-684cc3bb8f9c",
+        "timestamp": 1792988192917
+      },
+      {
+        "executionId": "7da9cbd5-6819-46bd-830b-818c1f3fb5d3",
+        "chatSessionId": "sess_3663d1af-d400-4ee6-a700-684cc3bb8f9c",
+        "timestamp": 1792988625783
+      }
+    ],
+    "11. Conectar capas y construir la SPA final": [
+      {
+        "executionId": "7da9cbd5-6819-46bd-830b-818c1f3fb5d3",
+        "chatSessionId": "sess_3663d1af-d400-4ee6-a700-684cc3bb8f9c",
+        "timestamp": 1792988625863
+      }
+    ],
+    "12. Punto de control final — Verificar suite completa de pruebas": [
+      {
+        "executionId": "4f867f9a-9a5a-4e52-bcb1-ba19719fa291",
+        "chatSessionId": "sess_3d108e82-0cbe-4f8b-96cc-e0b6aa9b09a0",
+        "timestamp": 1792988647282
+      },
+      {
+        "executionId": "75b11cf2-68c4-4838-b1d0-ede4f1c28ebb",
+        "chatSessionId": "sess_3d108e82-0cbe-4f8b-96cc-e0b6aa9b09a0",
+        "timestamp": 1792988852030
+      }
+    ]
+  }
+}
